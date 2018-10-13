@@ -5,5 +5,6 @@ end
 
 def word_substituter(tweet)
   tweet_shortened = tweet.split.collect do |word|
-    if 
+    if dictionary.keys.include? word.downcase
+      
 end
