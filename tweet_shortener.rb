@@ -4,5 +4,6 @@ def dictionary
 end
 
 def word_substituter(tweet)
-  
+  dictionary.each do |word, subst|
+    
 end
