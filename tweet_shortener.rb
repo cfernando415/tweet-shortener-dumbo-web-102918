@@ -5,9 +5,7 @@ end
 
 def word_substituter(tweet)
   dictionary.each do |word, subst|
-    if tweet.include? word
-      tweet[word] = subst
-    end
+    tweet.sub()
   end
   tweet
 end
